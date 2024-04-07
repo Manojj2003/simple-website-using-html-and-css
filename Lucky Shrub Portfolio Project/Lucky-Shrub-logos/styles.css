@@ -1,0 +1,198 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the whole page */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+    margin: 3rem 5% 5% 3rem;
+}
+
+/* Style the header with an image */
+header {
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    max-width: 100%;
+    height: 200px;
+}
+
+/* Style the navigation menu */
+nav ul {
+    list-style: none;
+    display: flex;
+    background-color: #333;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav li {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Add hover animation for 'a' tags */
+
+a:hover {
+    /* Apply the animation */
+    animation: glowText 0.5s infinite alternate; /* Set the animation properties */
+}
+
+@keyframes glowText {
+    from {
+        transform: rotate(0deg); /* Start from 0 degrees rotation */
+        color: black; /* Initial text color */
+    }
+    to {
+        transform: rotate(30deg); /* Rotate to 30 degrees */
+        color: rgb(31, 143, 31); /* Change text color to green */
+    }
+}
+
+/* Style main sections */
+main {
+    padding: 20px;
+    
+}
+
+section{
+    display: flex;
+}
+
+#welcome{
+    background-image: url('4345ea597710985c0025564ad978654b.jpg');
+    background-repeat: repeat; /* or 'no-repeat', 'repeat-x', 'repeat-y', or 'space' */
+    background-position: center center; /* or specify other values, e.g., top left, right bottom */
+    background-size: cover; /* or 'contain' or specify a size (e.g., 100px 100px) */
+}
+
+#welcome h1 {
+    color: #f0f0f0;
+}
+
+#welcome h2 {
+    color: #f0f0f0;
+}
+
+#welcome p {
+    color: #f0f0f0;
+    text-shadow: 2px #fff
+}
+
+#welcome{
+    text-align: center;
+}
+
+#promo {
+    margin: 0 0 20px 0;
+}
+
+#designs{
+    background-color: #92ad95;
+}
+
+#yards{
+    background-color: #92ad95;
+    margin: 0 20px 0px 20px;
+}
+
+#plants{
+    background-color: #92ad95;
+}
+
+#services img{
+    margin: 10px 0 10px 0;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    flex: 1;
+}
+
+article img{
+    max-width: 100%;
+    height: 400px;
+    border-radius: 5px;
+}
+
+h1 {
+    color: #333;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+}
+
+ul {
+    list-style: disc;
+    margin-left: 20px;
+}
+
+/* Style the footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Style footer content container */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style the logo */
+.footer-logo img {
+    max-width: 100%;
+    height: 90px;
+}
+
+/* Style the contact section */
+.footer-contact {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-contact a{
+    text-decoration: none;
+    color: #f0f0f0;
+}
+
+/* Style the copyright section */
+.footer-copyright {
+    text-align: right;
+}
+
+footer h2{
+    color: #fff;
+}
+
+footer p{
+    color: #fff;
+}
+
+/* Add your own styles for specific elements and components */
